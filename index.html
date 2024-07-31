@@ -1,0 +1,19 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federated Learning Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="client.js"></script>
+</head>
+<body>
+    <h1>Federated Learning Demo</h1>
+    <button onclick="trainAndSendModel('client1')">Train and Send Model (Client 1)</button>
+    <button onclick="trainAndSendModel('client2')">Train and Send Model (Client 2)</button>
+    <button onclick="evaluateFinalModel()">Evaluate Final Model</button>
+    <pre id="result"></pre>
+</body>
+</html>
